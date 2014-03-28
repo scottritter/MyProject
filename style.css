@@ -44,6 +44,14 @@ h2 {
 	text-align:center;
 }	
 /*pick up again at div id icons*/
+#icons {
+	text-align:center;
+}
+.iconimage {
+	width: 40px;
+	height: 40px;
+	padding: 3px;
+}
 
 #article {
 	width: 960px;
