@@ -11,37 +11,51 @@ body {
 	top: 0;
 	list-style-type: none;
 	width: 100%;
-	background-color: rgba(255,255,255,0.8);
 	text-align: center;
 	margin-top: -10px;
 	margin-left: -10px;
 	z-index: 5; 
 }
 .navigation a:hover {
-	color: #e6e6e6;
+	color: #000;
+}
+a:link {
+	color: #888a89;
+	text-decoration: none;
+}
+a:visited {
+	color: #888a89;
+}
+a:hover: {
+	color: #000;
 }
 li {
-	display: inline;
-	font-size: 21pt;
+	display: inline-block;
+	font-size: 30px;
 	padding: 0 30px 0 0;
 	width: fit-content;
 }
+/*full-screen background code borrowed from css-tricks.com*/
 #nameplate {
-	background: url('file:///C:/Users/Scott/scottritter/shennysnow.png') 70% 50% repeat fixed;
-	min-height:900%;
+	background: url('file:///C:/Users/Scott/scottritter/shennysnow.png') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover; 
 }
 h1 {
 	font-size:100px;
-	color: #757575;
+	color: #003300;
 	text-align: center;
-	line-height:400px;
-	margin-top: 50px;
-	padding-top:0px;
-}
+	line-height:500px;
+	margin-top: -50px;
+	margin-bottom:-100px;
+	}
 h2 {
 	font-size:25px;
-	color: black;
+	color: #003300;
 	text-align:center;
+	margin-bottom:100px;
+	margin-top:-100px;
 }	
 /*pick up again at div id icons*/
 #icons {
@@ -52,7 +66,6 @@ h2 {
 	height: 40px;
 	padding: 3px;
 }
-
 #article {
 	width: 960px;
 	height: 800px;
@@ -66,19 +79,33 @@ h2 {
 	height: 500px;
 	background: none;
 }
-#menu {
-	margin: 15px; text-align:center;
-	background-color: clear;
-	color: white; padding: 10px;
-	display: block; 
-	text-decoration: none;
-	font-size: x-large;
-	/*--fix colors--*/
-	border: thin solid lightgray;
-	box-shadow: 4px 6px 3px lightgray;
-	-webkit-box-shadow: 4px 6px 3px lightgray;
-	-moz-box-shadow: 4px 6px 3px lightgray;
+#footer {
+	color: #888a89;
+	height: 20px;
+	font-size: 18px;
+	text-align: center;
 }
+.section-wrap {
+	margin: 100px;
+	text-align: center;
+}
+.section-wrap h3 {
+	font-size:20px;
+	line-height: 5px;
+}
+.section-wrap h2 {
+	font-size: 28px;
+	line-height: 15px;
+}
+p {
+	font-size:18px;
+	line-height:25px;
+}
+#resume-section-wrap {
+	width: 700px;
+}
+
+
 	
 	
 	
